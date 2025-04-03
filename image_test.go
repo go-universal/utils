@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/go-universal/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/go-universal/utils"
 )
 
 func createTestImage(format string) ([]byte, error) {
